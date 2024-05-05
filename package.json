@@ -1,0 +1,35 @@
+{
+  "name": "new-horizons-database",
+  "version": "0.1.0",
+  "description": "Contains all of New Horizon's game data.",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satellite-games/new-horizons-database.git"
+  },
+  "keywords": [
+    "new-horizons"
+  ],
+  "author": "satellite-games",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satellite-games/new-horizons-database/issues"
+  },
+  "homepage": "https://newhorizonsgame.de",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vitest": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "eslint": "^9.2.0",
+    "prettier": "^3.2.5"
+  }
+}
